@@ -92,10 +92,10 @@ export function Hero() {
                         className="relative w-[300px] h-[450px] md:w-[400px] md:h-[600px] z-20"
                     >
                         <Image
-                            src="https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=1000&auto=format&fit=crop"
-                            alt="Luxury Perfume Bottle"
+                            src="/originals-banner.jpg"
+                            alt="BnG Originals Concept"
                             fill
-                            className="object-contain drop-shadow-[0_20px_50px_rgba(229,179,164,0.3)] filter brightness-105"
+                            className="object-cover"
                             priority
                         />
                     </div>
