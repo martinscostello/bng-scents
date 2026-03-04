@@ -7,11 +7,20 @@ export function Footer() {
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-white/10 pb-16">
                 {/* Brand */}
                 <div className="space-y-6">
-                    <div className="flex flex-col">
-                        <span className="text-2xl font-serif font-bold tracking-tight">BnG Scents</span>
-                        <span className="text-[10px] uppercase tracking-[0.3em] text-rose-gold/80 -mt-1 ml-1">
-                            Luxury Fragrance
-                        </span>
+                    <div className="flex items-center space-x-4">
+                        <div className="relative w-12 h-12">
+                            <img
+                                src="/logo.png"
+                                alt="BnG Scents Logo"
+                                className="w-full h-full object-contain filter brightness-0 invert"
+                            />
+                        </div>
+                        <div className="flex flex-col text-left">
+                            <span className="text-2xl font-serif font-bold tracking-tight text-white">BnG Scents</span>
+                            <span className="text-[10px] uppercase tracking-[0.3em] text-rose-gold/80 -mt-1">
+                                Luxury Fragrance
+                            </span>
+                        </div>
                     </div>
                     <p className="text-white/60 text-sm leading-relaxed max-w-xs">
                         Discover timeless scents crafted for elegance, confidence, and unforgettable presence.

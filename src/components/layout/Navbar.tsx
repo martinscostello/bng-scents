@@ -36,18 +36,27 @@ export function Navbar() {
         >
             <div className="max-w-7xl mx-auto flex items-center justify-between">
                 {/* Logo */}
-                <Link href="/" className="group">
+                <Link href="/" className="group flex items-center space-x-3">
                     <motion.div
                         initial={{ opacity: 0, x: -20 }}
                         animate={{ opacity: 1, x: 0 }}
-                        className="flex flex-col"
+                        className="flex items-center space-x-3"
                     >
-                        <span className="text-2xl font-serif font-bold tracking-tight text-foreground transition-colors group-hover:text-rose-gold">
-                            BnG Scents
-                        </span>
-                        <span className="text-[10px] uppercase tracking-[0.3em] text-rose-gold/80 -mt-1 ml-1">
-                            Luxury Fragrance
-                        </span>
+                        <div className="relative w-10 h-10">
+                            <img
+                                src="/logo.png"
+                                alt="BnG Scents Logo"
+                                className="w-full h-full object-contain"
+                            />
+                        </div>
+                        <div className="flex flex-col text-left">
+                            <span className="text-xl font-serif font-bold tracking-tight text-foreground transition-colors group-hover:text-rose-gold">
+                                BnG Scents
+                            </span>
+                            <span className="text-[10px] uppercase tracking-[0.3em] text-rose-gold/80 -mt-1">
+                                Luxury Fragrance
+                            </span>
+                        </div>
                     </motion.div>
                 </Link>
 

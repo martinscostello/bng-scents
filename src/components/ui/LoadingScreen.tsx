@@ -30,6 +30,13 @@ export function LoadingScreen() {
                             transition={{ duration: 0.8, ease: "easeOut" }}
                             className="flex flex-col items-center"
                         >
+                            <div className="relative w-24 h-24 mb-6">
+                                <img
+                                    src="/logo.png"
+                                    alt="BnG Scents Logo"
+                                    className="w-full h-full object-contain"
+                                />
+                            </div>
                             <span className="text-4xl md:text-6xl font-serif font-bold tracking-tight">BnG Scents</span>
                             <span className="text-xs uppercase tracking-[0.5em] text-rose-gold mt-2">
                                 Luxury Fragrance
