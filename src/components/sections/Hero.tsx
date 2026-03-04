@@ -92,10 +92,10 @@ export function Hero() {
                         className="relative w-[300px] h-[450px] md:w-[400px] md:h-[600px] z-20"
                     >
                         <Image
-                            src="/originals-banner.jpg"
-                            alt="BnG Originals Concept"
+                            src="/hero-perfume.jpg"
+                            alt="Luxury Perfume Bottle"
                             fill
-                            className="object-cover"
+                            className="object-contain drop-shadow-[0_20px_50px_rgba(229,179,164,0.3)] filter brightness-105"
                             priority
                         />
                     </div>

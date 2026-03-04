@@ -11,17 +11,17 @@ const storySteps = [
     {
         title: "The Essence of Luxury",
         text: "Every fragrance begins with a vision of absolute elegance and refined sophistication.",
-        image: "https://images.unsplash.com/photo-1594434297573-4556f08235dc?q=80&w=1000&auto=format&fit=crop",
+        image: "/story-essence.jpg",
     },
     {
         title: "Masterful Ingredients",
         text: "We source the rarest botanicals and oils from across the globe to create our signature blends.",
-        image: "https://images.unsplash.com/photo-1563170351-be82bc888bb4?q=80&w=1000&auto=format&fit=crop",
+        image: "/story-ingredients.jpg",
     },
     {
         title: "Timed Perfection",
         text: "Months of maturation ensure each note harmonizes perfectly, delivering a scent that evolves beautifully.",
-        image: "https://images.unsplash.com/photo-1594434297573-4556f08235dc?q=80&w=1000&auto=format&fit=crop",
+        image: "/story-perfection.jpg",
     },
     {
         title: "Signature Confidence",

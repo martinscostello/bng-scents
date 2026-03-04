@@ -20,7 +20,7 @@ export function BnGSection() {
                         className="relative h-[600px] rounded-2xl overflow-hidden shadow-2xl"
                     >
                         <Image
-                            src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=1000&auto=format&fit=crop"
+                            src="/originals-banner.jpg"
                             alt="BnG Originals Concept"
                             fill
                             className="object-cover"
