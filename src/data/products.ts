@@ -40,7 +40,7 @@ export const products: Product[] = [
         category: "Other Brands",
         description: "A deep, mysterious oud with spicy saffron and dark leather undertones.",
         price: "$120.00",
-        image: "https://images.unsplash.com/photo-1594434297573-4556f08235dc?q=80&w=1000&auto=format&fit=crop",
+        image: "/oud-al-layl.jpg",
     },
     {
         id: "ob-2",
@@ -48,7 +48,7 @@ export const products: Product[] = [
         category: "Other Brands",
         description: "Concentrated perfume oil with long-lasting floral and woody accords.",
         price: "$95.00",
-        image: "https://images.unsplash.com/photo-1588405748353-0c58a4369e71?q=80&w=1000&auto=format&fit=crop",
+        image: "/dnill-luxury.jpg",
     },
     {
         id: "ob-3",
@@ -56,7 +56,7 @@ export const products: Product[] = [
         category: "Other Brands",
         description: "A majestic garden in a bottle, bursting with fresh tuberose and citrus highlights.",
         price: "$110.00",
-        image: "https://images.unsplash.com/photo-1563170351-be82bc888bb4?q=80&w=1000&auto=format&fit=crop",
+        image: "/kaly-gifts.jpg",
     },
     {
         id: "ob-4",
