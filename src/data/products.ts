@@ -14,24 +14,24 @@ export const products: Product[] = [
         name: "Caramel Kiss",
         category: "BnG Originals",
         description: "A sweet, addictive blend of warm caramel, vanilla bean, and a hint of toasted musk.",
-        price: "$85.00",
-        image: "https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=1000&auto=format&fit=crop",
+        price: "₦125,000",
+        image: "/caramel-kiss.jpg",
     },
     {
         id: "bng-2",
         name: "Pink Cravings",
         category: "BnG Originals",
         description: "A feminine and playful fragrance with notes of red berries, peony, and soft marshmallows.",
-        price: "$85.00",
-        image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=1000&auto=format&fit=crop",
+        price: "₦125,000",
+        image: "/pink-cravings.jpg",
     },
     {
         id: "bng-3",
         name: "Blush Aura",
         category: "BnG Originals",
         description: "An elegant, airy scent featuring white roses, jasmine tea, and ethereal amber.",
-        price: "$85.00",
-        image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=1000&auto=format&fit=crop",
+        price: "₦145,000",
+        image: "/blush-aura.jpg",
     },
     // Other Brands
     {
@@ -39,7 +39,7 @@ export const products: Product[] = [
         name: "Oud Al Layl Midnight Edition",
         category: "Other Brands",
         description: "A deep, mysterious oud with spicy saffron and dark leather undertones.",
-        price: "$120.00",
+        price: "₦185,000",
         image: "/oud-al-layl.jpg",
     },
     {
@@ -47,7 +47,7 @@ export const products: Product[] = [
         name: "D’Nill Luxury Oil Perfume",
         category: "Other Brands",
         description: "Concentrated perfume oil with long-lasting floral and woody accords.",
-        price: "$95.00",
+        price: "₦95,000",
         image: "/dnill-luxury.jpg",
     },
     {
@@ -55,7 +55,7 @@ export const products: Product[] = [
         name: "Kaly Gifts Flora Majesty",
         category: "Other Brands",
         description: "A majestic garden in a bottle, bursting with fresh tuberose and citrus highlights.",
-        price: "$110.00",
+        price: "₦110,000",
         image: "/kaly-gifts.jpg",
     },
     {
@@ -63,7 +63,7 @@ export const products: Product[] = [
         name: "Khalis Gold",
         category: "Other Brands",
         description: "A radiant blend of honey, sandalwood, and luminous jasmine.",
-        price: "$105.00",
-        image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=1000&auto=format&fit=crop",
+        price: "₦155,000",
+        image: "/khalis-gold.jpg",
     },
 ];
